@@ -5,14 +5,11 @@ This IoT Home Automation System is designed to control and monitor both electric
 
 ## How to Run 
 
+Make sure you have docker installed and run this command in terminal.
+
 To run this project, clone it by pasting the following command in terminal:
- > git clone https://github.com/AhmadTChaudhry/IoT-Home-Automation.git
-
-Then open the directory in terminal and run:
-> npm install;
-
-Once the packages have installed, run:
-> npm run dev; 
+ > docker pull ahmadtc/725docker:latest
+ >docker run -p 3040:3040 ahmadtc/725docker:latest
 
 ![dashboard](https://i.ibb.co/0BhCsNz/Screenshot-2024-09-17-at-2-05-07-AM.png)
 ![usage](https://i.ibb.co/QPrDytN/Screenshot-2024-09-17-at-2-05-20-AM.png)
