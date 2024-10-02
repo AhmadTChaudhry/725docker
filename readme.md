@@ -7,7 +7,7 @@ This IoT Home Automation System is designed to control and monitor both electric
 
 Make sure you have docker installed and run this command in terminal.
 
-To run this project, clone it by pasting the following command in terminal:
+To run this project, paste the following command in terminal:
  > docker pull ahmadtc/725docker:latest
 
 Once the image has been pulled, you can run the container by running this command:
